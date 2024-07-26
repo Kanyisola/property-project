@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-body{
+    background-image: url(./images/group.png);
+    height: 600px;
+}
+header{
+    padding-left:30px;    
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 1px solid #fff;
+
+}
+
+.header-img{
+    border-right: 1px solid #fff;
+    padding-left: 110px;
+    padding-right: 100px;
+    padding-bottom: 15px;
+
+    img{  
+        margin-top: 30px;
+    }
+}
+
+
+.sub-header{
+    border-bottom: 1px solid #fff;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    span{
+        color: #fff;
+        margin-right: 16px;
+    }
+}
+
+.nav{
+    margin-top: 30px;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 120px;
+}
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+
+}
+.nav a:hover{
+    background-color: green;
+    border-radius: 5px;
+}
+.nav a.active{
+    background-color: green;
+    border-radius: 5px;
+}
+
+.bi-list{
+    display: none;
+    font-size: 30px;
+    background-color: #fff;
+}
+
+.banner{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+    text-align: center;
+    gap: 20px;
+
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    p{
+        font-size: 17px;
+        font-weight: 200;
+        width: 50%;
+    }
+
+}
+
+.flexrow{
+    display: flex;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-top: 4%;
+    row-gap: 10px;
+    column-gap: 10px;
+    gap: 2%;
+}
+
+.mana{
+    background-image: url(./images/Obudu-Mountain-Resort.png);
+    background-repeat: no-repeat; 
+    width: 375px;
+    height: 500px;
+    border-radius: 20px;
+}
+       
+.test{
+    background-color: rgba(107, 104, 104, 0.422);;
+    position:absolute;
+    border-radius: 20px;
+    width: 375px;
+    height: 500px;
+    display: none;
+
+
+    h1{
+        font-family: Barlow;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 31.89px;
+        text-align: left;
+        display: none;
+        margin-top: 120%;
+        color: #fff;
+        padding: 2%;
+        padding-left: 5%;
+        background-color: rgba(44, 42, 42, 0.845);
+        width: 93%;
+        height: 35px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+
+    }
+}
+
+.mana:hover .test{
+    display: block;
+    transition: all .3s ease-in-out;
+
+    h1{
+    color: #fff;
+    display: block;
+}
+}
+
+.mana2{
+    background-image: url(./images/Mask\ group\ \(23\).png);
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 300px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.teste{
+    background-color: rgba(107, 104, 104, 0.422);;
+    position:absolute;
+    border-radius: 20px;
+    width: 375px;
+    height: 300px;
+    display: none;
+
+
+    h1{
+        font-family: Barlow;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 31.89px;
+        text-align: left;
+        display: none;
+        margin-top: 67%;
+        color: #fff;
+        padding: 2%;
+        padding-left: 5%;
+        background-color: rgba(44, 42, 42, 0.845);
+        width: 93%;
+        height: 35px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+
+    }
+}
+
+.mana2:hover .teste{
+    display: block;
+    transition: all .3s ease-in-out;
+
+    h1{
+    color: #fff;
+    display: block;
+}
+}
+
+.mana3{
+    background-image: url(./images/Mask\ group\ \(24\).png);
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 400px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.tes{
+    background-color: rgba(107, 104, 104, 0.422);;
+    position:absolute;
+    border-radius: 20px;
+    width: 375px;
+    height: 400px;
+    display: none;
+
+
+    h1{
+        font-family: Barlow;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 31.89px;
+        text-align: left;
+        display: none;
+        margin-top: 93%;
+        color: #fff;
+        padding: 2%;
+        padding-left: 5%;
+        background-color: rgba(44, 42, 42, 0.845);
+        width: 93%;
+        height: 35px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+
+    }
+}
+
+.mana3:hover .tes{
+    display: block;
+    transition: all .3s ease-in-out;
+
+    h1{
+    color: #fff;
+    display: block;
+}
+}
+
+.mana4{
+    background-image: url(./images/Obudu-Mountain-Resort.png);
+    background-repeat: no-repeat; 
+    width: 375px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: -53%;
+}
+       
+.tet{
+    background-color: rgba(107, 104, 104, 0.422);;
+    position:absolute;
+    border-radius: 20px;
+    width: 375px;
+    height: 500px;
+    display: none;
+
+
+    h1{
+        font-family: Barlow;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 31.89px;
+        text-align: left;
+        display: none;
+        margin-top: 120%;
+        color: #fff;
+        padding: 2%;
+        padding-left: 5%;
+        background-color: rgba(44, 42, 42, 0.845);
+        width: 93%;
+        height: 35px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+
+    }
+}
+
+.mana4:hover .tet{
+    display: block;
+    transition: all .3s ease-in-out;
+
+    h1{
+    color: #fff;
+    display: block;
+}
+}
+
+.mana5{
+    background-image: url(./images/Mask\ group\ \(24\).png);
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 400px;
+    display: flex;
+    border-radius: 20px;
+    margin-top: -27%;
+}
+
+.tes{
+    background-color: rgba(107, 104, 104, 0.422);;
+    position:absolute;
+    border-radius: 20px;
+    width: 375px;
+    height: 400px;
+    display: none;
+
+
+    h1{
+        font-family: Barlow;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 31.89px;
+        text-align: left;
+        display: none;
+        margin-top: 93%;
+        color: #fff;
+        padding: 2%;
+        padding-left: 5%;
+        background-color: rgba(44, 42, 42, 0.845);
+        width: 93%;
+        height: 35px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+
+    }
+}
+
+.mana5:hover .tes{
+    display: block;
+    transition: all .3s ease-in-out;
+
+    h1{
+    color: #fff;
+    display: block;
+}
+}
+
+
+
+.butt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lorem{
+    margin-top: 8%;
+    border: none;
+    outline: none;
+    background-color: #30672D;
+    width: 25%;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.lorem:hover{
+    background-color: #042702;
+}
+
+
+.footer{
+    background-color: #04563B;
+    margin-top: 10%;
+   
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    gap: 20px;
+    color: #fff;
+}
+
+.footer1{
+    padding-left: 80px;
+
+    img{
+        width: 150px;
+    height: 120px;
+    padding: 23px 14px 22.89px 15px;
+    gap: 0px;
+    opacity: 0px;
+    }
+
+
+    h4{
+        width: 69%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 13px;
+
+    }
+}
+
+.footer2{
+    padding-top: 40px;
+    padding-right: 10%;
+
+    h2{
+font-size: 27px;
+font-weight: 900;
+line-height: 18px;
+text-align: left;
+    }
+
+}
+
+.navlink{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 30px;
+
+    a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 200;
+    }
+}
+
+.footer3{
+    padding-top: 40px;
+    h2{
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 18px;
+    text-align: left;
+    }
+
+    p{
+        padding-top: 30px;
+        width: 217px;
+height: 60px;
+width: 90%;
+line-height: 20px;
+
+
+    }
+
+    span{
+        padding-top: 10px;
+    }
+}   
+
+
+.footer4{
+    padding-left: 20px;
+    padding-top: 30px;
+
+    h2{
+        font-size: 27px;
+    font-weight: 900;
+    line-height: 18px;
+    text-align: left;
+
+    }
+
+    p{
+        padding-top: 30px;
+        width: 80%;
+        gap: 50px;
+    }
+
+    
+}
+.yy{
+    margin-top: 5%;
+    border-top: 3px solid #fff;
+    padding: 20px;
+    color: white;
+    display: flex;
+    
+    h4{
+        padding-left: 5%;
+    }
+
+    p{
+        padding-left: 30%;
+    }
+
+}
