@@ -5,6 +5,7 @@
 .bg-body{
     background-image: url(./images/Mask\ group\ \(16\).png);
     height: 500px;
+    background-repeat: no-repeat;
 }
 header{
     padding-left:30px;    
@@ -523,7 +524,6 @@ border{
     margin-top: 40px;
     align-items: center;
     text-align: center;
-    /* justify-content: space-between; */
 
     .active{
         background-color: rgb(0, 103, 0);
@@ -538,7 +538,6 @@ border{
     width: Fixed (30px)px;
 height: Hug (29px)px;
 padding: 5px 10px 5px 10px;
-/* gap: 10; */
 text-decoration: none;
 text-align: center;
 
@@ -548,8 +547,6 @@ border-radius: 5px 5px 5px 5px;
 .bi-chevron-left{
     width: Fixed (30px)px;
 height: Hug (29px)px;
-/* padding: 5px 8px; */
-/* gap: 10px; */
 text-decoration: none;
 text-align: center;
 border-radius: 5px 5px 5px 5px;
@@ -558,8 +555,6 @@ border-radius: 5px 5px 5px 5px;
 .bi-chevron-right{
     width: 10px;
 height: Hug (29px)px;
-/* padding: 5px 8px; */
-/* gap: 10px; */
 text-decoration: none;
 text-align: center;
 
@@ -568,7 +563,6 @@ border-radius: 5px 5px 5px 5px;
    
 }
 }
-
 .footer{
     background-color: #04563B;
     margin-top: 20%;
@@ -694,3 +688,207 @@ line-height: 20px;
     }
 
 }
+
+
+/*media queries */
+@media (max-width:1024px) {
+    .header-img{
+        padding-right: 90px;
+        padding-left: 90px;
+    }
+    .nav{
+        margin-left: 5%;
+    }
+    .nav a{
+        padding: 5px;
+    }
+    .imageholder{
+        .button{
+            width: 30%;
+        }
+    }
+}
+@media (max-width:912px) {
+    .header-img{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .footer3{
+        margin-left: -10%;
+        p{
+            font-size: 19px;
+            padding-bottom: 10px;
+        }
+       
+    }
+    .footer4{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:820px) {
+    .header-img{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .nav{
+        margin-left: 10px;
+       
+    }
+    .nav a{
+        margin: 5px;
+      padding: 5px;
+     }
+    .imageholder{
+        .button{
+            width: 40%;
+            margin-left: 140px;
+        }
+    }
+    .footer1{
+        margin-left: -9%;
+    }
+    .footer3{
+        margin-left: -10%;
+    }
+    .footer4{
+        margin-left: 2%;
+    }
+    
+}
+@media (max-width:768px) {
+    .nav a{
+        margin-left: 6px;
+        padding: 2px;
+    }
+    .footer1{
+        margin-left: -9%;
+    }
+    .footer4{
+        margin-right: -7%;
+    }
+}
+@media (max-width:540px) {
+    .footer-nav{
+        display: block;
+    }
+    .footer2{
+        margin-left: 9%;
+    }
+    .footer3{
+        margin-left: 9%;
+    }
+    .footer4{
+        margin-left: 5%;
+    }
+    .header-img{
+        padding: 0;
+        border: none;
+        display: inline;
+    }
+    header{
+        display: block;
+    }
+    .nav{
+        margin-left: 0px;
+        display: none;
+    }
+    .nav a{
+        display: block;
+        margin: 0;
+    }
+    .sub-header{
+        display: none;
+    }
+    .menu{
+        display: inline;
+    }
+    .bi-list{
+        display: inline;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        margin-right: 50px;
+    }
+    .imageholder{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:430px) {
+    .bg-body{
+        width: 100%;
+    }
+    .header-img{
+        padding: 0;
+        border: none;
+        display: inline;
+    }
+    header{
+        display: block;
+    }
+    .nav{
+        margin-left: 0px;
+        display: none;
+    }
+    .nav a{
+        display: block;
+        margin: 0;
+    }
+    .sub-header{
+        display: none;
+    }
+    .menu{
+        display: inline;
+    }
+    .bi-list{
+        display: inline;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        margin-right: 50px;
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+
+        h1{
+            font-size: 50px;
+            font-weight: 300;
+        }
+
+        p{
+            font-size: 16px;
+            font-weight: 200;
+            width: 90%;
+        }
+    }
+    .imageholder{
+        display: block;
+        .button{
+            margin-left: 220px;
+        }
+    }
+   
+    .footer-nav{
+        display: block;
+    }
+    .footer1{
+        margin-left: -11%;
+    }
+    .footer2{
+        margin-left: 15%;
+    }
+    .footer3{
+        margin-left: 15%;
+    }
+    .footer4{
+        margin-left: 8%;
+    }
+
+    
+}
+
+
